@@ -1,0 +1,34 @@
+{
+  "name": "pebblekit-js-counter",
+  "author": "sandigst",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Counter",
+    "uuid": "2f527e02-ea59-4e27-8a0b-2a3c08b51c24",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "Count",
+      "CountUp",
+      "CountDown",
+      "Reset"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
